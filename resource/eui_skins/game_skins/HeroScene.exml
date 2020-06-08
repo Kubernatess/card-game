@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NewFile" width="480" height="800" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="bgListPage_jpg" horizontalCenter="0" verticalCenter="0" visible="true"/>
+	<e:Image source="herosTitle_png" y="132.848" horizontalCenter="0" visible="true"/>
+	<e:Button id="btn_return" x="13.458" y="130.482">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" source="btnReturn_png" source.down="btnReturn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_confirm" x="380.21" y="130.482">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" width.down="100%" height.down="100%" source="btnOK_png" source.down="btnOK_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller id="scroll_hero" width="453.79" height="515.271" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="43.5" scrollPolicyH="off">
+		<e:List id="list_hero" itemRendererSkinName="heroListItem" scrollH="0" visible="true" x="133.44" y="0" scrollV="0"/>
+	</e:Scroller>
+</e:Skin>

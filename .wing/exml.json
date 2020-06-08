@@ -1,0 +1,24 @@
+{
+  "172747eba45": {
+    "path": "MainScene.ts",
+    "class": "MainScene",
+    "parentPath": ""
+  },
+  "17279c64bde": {
+    "path": "PlayerScene.ts",
+    "class": "PlayerScene",
+    "parentPath": ""
+  },
+  "1727b2e20cd": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": -231
+      }
+    ]
+  },
+  "design": {
+    "height": "800",
+    "width": "480"
+  }
+}
